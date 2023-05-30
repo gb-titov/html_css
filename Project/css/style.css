@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.layout-header {
+    margin: 14px 0 21px 18px;
+}
+
+.logo svg {
+    margin-top: 26px;
+    margin-bottom: 48px;
+    margin-left: 59px;
+}
+.logo .logo-text {
+    margin-top: 31px;
+    margin-bottom: 53px;
+    margin-left: 108px;
+}
+
+.menu {
+    margin: 26px 0 48px 533px;
+}
+
+.layout-content {
+    margin: 21px 0 53px 18px;
+}
+
+.main-info {
+    margin: 15px 0 27px 16px;
+}
+.main-info h1 {
+    margin-top: 59px;
+    margin-left: 41px;
+}
+.main-info p {
+    margin-top: 17px;
+    margin-left: 41px;
+}
+
+.main-btn {
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.btn-start {
+    margin: 21px auto 23px 23px;
+    padding: 15px 36px 16px 35px;
+}
+
+.btn-watch {
+    margin: 36px auto 39px 235px;
+}
+
+.layout-footer {
+    margin-top: 42px;
+    padding: 38px 45px 32px 34px;
+}
+
+.footer-info img {
+    margin: 97px 48px;
+
+}
