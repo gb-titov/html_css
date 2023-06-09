@@ -115,7 +115,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 32%;
-    min-width: 200px;
+    min-width: 122px;
     height: 280px;
     margin-bottom: 1%;
 }
@@ -278,12 +278,7 @@ header {
         line-height: 29px;
     }
 
-    .offer {
-        flex-direction: column;
-    }
-    .offer-item {
-        width: 100%;
-    }
+    
     .featured-item {
         width: 48%;
     }
@@ -320,5 +315,12 @@ header {
     .featured-item {
         width: 100vw;
         margin: 15px auto;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+    .offer-item {
+        width: 100%;
     }
 }
