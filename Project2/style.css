@@ -99,7 +99,7 @@ header {
 }
 
 .section-offer {
-    margin: 1rem;
+    margin: 0 auto;
 }
 
 .offer {
@@ -315,6 +315,7 @@ header {
     color: #fff;
     border: 1px solid #fff;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 @media screen and (min-width: 391px) and (max-width: 768px) {
@@ -360,13 +361,7 @@ header {
         font-size: 20px;
         line-height: 24px;
     }
-    .offer {
-        flex-direction: column;
-        margin: 0 1rem;
-    }
-    .offer-item {
-        width: 100%;
-    }
+
     .featured-item {
         width: 100vw;
         margin: 15px auto;
