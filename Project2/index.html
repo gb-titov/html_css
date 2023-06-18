@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <header>
-            <div class="header-container">
+            <div class="header-container section-container">
                 <div class="header-left">
                     <div class="logo">
                         <a href="index.html">
@@ -47,7 +47,7 @@
             </div>
         </header>
         <section class="section-main">
-            <div class="main">
+            <div class="main section-container">
                 <div class="main-foto">
                     <img src="img/main_foto.png" alt="main foto">
                 </div>
@@ -58,7 +58,7 @@
             </div>
         </section>
         <section class="section-offer">
-            <div class="offer">
+            <div class="offer section-container">
                 <div class="offer-item women">
                     <div class="offer-descrtiption">
                         <div class="offer-what">30% OFF</div>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="offer">
+            <div class="offer section-container">
                 <div class="offer-item accesories">
                     <div class="offer-descrtiption">
                         <div class="offer-what">LUSIROUS & TRENDY</div>
@@ -93,12 +93,12 @@
                 <h2>Featured Items</h2>
                 <p>Shop for items based on what we featured in this week</p>
             </div>
-            <div class="featured-items">
+            <div class="featured-items  section-container">
                 <div class="featured-item">
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     
@@ -110,7 +110,7 @@
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     <div class="featured-name">ELLERY X M'O CAPSULE</div>
@@ -121,7 +121,7 @@
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     <div class="featured-name">ELLERY X M'O CAPSULE</div>
@@ -132,7 +132,7 @@
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     <div class="featured-name">ELLERY X M'O CAPSULE</div>
@@ -143,7 +143,7 @@
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     <div class="featured-name">ELLERY X M'O CAPSULE</div>
@@ -154,7 +154,7 @@
                     <div class="featured-img">
                         <img src="img/catalog/1.jpg" alt="item-foto">
                         <div class="add-to-cart">
-                            <button>Add to Cart</button>
+                            <button><span class="add-to-cart-btn">Add to Cart</span> </button>
                         </div>
                     </div>
                     <div class="featured-name">ELLERY X M'O CAPSULE</div>
@@ -162,11 +162,59 @@
                     <div class="price">$52.00</div>
                 </div>
             </div>
-            <div class="featured-all">
+            <div class="featured-all section-container">
                 <button>Browse All Product</button>
             </div>
-
         </section>
+        <footer class="footer">
+            <div class="footer-cards-container">
+                <section class="footer-cards section-container">
+                    <figure class="footer-card">
+                        <img src="img/delivery.svg" alt="">
+                        <figcaption>Free Delivery</figcaption>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>
+                    <figure class="footer-card">
+                        <img src="img/sales.svg" alt="">
+                        <figcaption>Sales & discounts</figcaption>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>
+                    <figure class="footer-card">
+                        <img src="img/assurance.svg" alt="">
+                        <figcaption>Quality assurance</figcaption>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </figure>
+                </section>
+            </div>
+            <div class="footer-subscribe-container">
+                <section class="footer-subscribe section-container">
+                    <div class="girl">
+                        <img src="img/girl.png" alt="">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                    </div>
+                    <div class="subscribe">
+                        <div class="subscribe-header">SUBSCRIBE</div>
+                        <div class="subscribe-for">FOR OUR NEWLETTER AND PROMOTION</div>
+                        <div class="subscribe-form">
+                            <input type="email" name="" placeholder="Enter Your Email" id=""><button>Subscribe</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-copyright-container">
+                <section class="footer-copyright section-container">
+                    <div class="copyright">
+                        © 2022 Brand All Rights Reserved.
+                    </div>
+                    <div class="social">
+                        <a href="#"><img src="img/facebook-f.svg" height="25px" alt="facebook"></a>
+                        <a href="#"><img src="img/instagram.svg" height="25px" alt="instagram"></a>
+                        <a href="#"><img src="img/pinterest-p.svg" height="25px" alt="pinterest"></a>
+                        <a href="#"><img src="img/twitter.svg" height="25px" alt="twitter"></a>
+                    </div>
+                </section>
+            </div> 
+        </footer>
     </div>
 </body>
 </html>
