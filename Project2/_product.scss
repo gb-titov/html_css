@@ -1,5 +1,5 @@
 .product-container {
-    height: 1400px;
+    height: 1000px;
 }
 
 .product {
@@ -43,11 +43,11 @@
 
     &-description-container {
         position: relative;
-        height: 600px;
+        max-height: 600px;
     }
 
     &-description {
-        height: 600px;
+        max-height: 600px;
         position: absolute;
         top: -50px;
         left: 0;
@@ -107,6 +107,18 @@
     &-price {
         font-size: 24px;
     }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-item {
+        width: 48%;
+    }
+
+    .product-container {
+        height: 1000px;
+    }
+
 
   }
 
